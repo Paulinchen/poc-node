@@ -2,6 +2,8 @@ var http = require('http');
 var express = require('express');
 var app = express();
 
+console.log('Trying to configure app server...');
+
 app.set('port', process.env.OPENSHIFT_NODEJS_PORT || 8080);
 app.set('ip', process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1');
 
