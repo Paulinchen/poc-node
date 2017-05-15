@@ -1,2 +1,2 @@
 # poc-node
-poc node.js project for openshift
+example node.js project for openshift
